@@ -18,6 +18,9 @@ import config from "react-reveal/globals";
 import Logosldier from "./components/Logoslider";
 import Alumni from "./components/Alumni";
 
+import AddProject from "./components/AddProject.jsx";
+
+
 config({ ssrFadeout: true });
 
 
@@ -94,6 +97,10 @@ function App() {
           <Alumni/>
         </Route>
 
+        <Route path="/AddProject">
+          <AddProject/>
+        </Route>
+
 
         <Route path="/">
           <Main />
@@ -109,6 +116,11 @@ function App() {
            {/* <Signin/>  */}
 
         </Route>
+        
+
+
+
+
 
 
       </Switch>

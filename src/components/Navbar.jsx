@@ -46,6 +46,11 @@ return(
                         Alumni
                         </a>
                     </li>
+                    <li>
+                        <a className="navbtn" href="/AddProject">
+                        Add Project
+                        </a>
+                    </li>
                    
                 </ul>
                 <div className="header-bar d-lg-none">
