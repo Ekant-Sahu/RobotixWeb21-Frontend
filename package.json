@@ -60,5 +60,8 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://robotixnitrr.herokuapp.com/"
+  "proxy": "https://robotixnitrr.herokuapp.com/",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
