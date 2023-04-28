@@ -1,6 +1,7 @@
 import React from 'react'
 import { Fragment } from 'react';
 import "../assets/css/alumni.css";
+import Navbar from './Navbar';
 // import Loader from "./Loader"
 import TrinityRingsSpinner from "@bit/bondz.react-epic-spinners.trinity-rings-spinner";
 
@@ -10,7 +11,7 @@ function Alumni() {
     return (
         <Fragment>
 
-
+        <Navbar/>
 
     <div class="alumni-container container">
                 <div class="row">

@@ -49,20 +49,14 @@ const fetchData = () => {
        <div className="contaner_ul">
        <h1 className="UserList">Project List</h1>
        </div>
-<div className="project_continer_center">
+    <div className="project_continer_center">
       <div className="project-continer">
-          {user && user.length > 0 && user.map((userObj, index) => (
-
-        <Link to = {`/ProjectDetails/${userObj.id}`} className="link">
-          <div className="card1">
-        <div className="Card_cantaner"> 
-     <div className="card_img" style={{ backgroundImage:`url(${userObj.thumb})` }}></div>
-          
-
-
+    <div className="card1 ">
+    <div className="Card_cantaner"> 
+     <div className="card_img"></div>
      <div className="card_contex">
          <div className="card_user"></div>
-         <div className="card_text"><b>{userObj.title}</b></div>
+         <div className="card_text"><b>Hack Game</b><p>alax</p></div>
          <div className="card_menu"><AiOutlineEllipsis/></div>
          <div className="icons_menu" ><AiOutlineBars/>
         </div>
@@ -77,12 +71,233 @@ const fetchData = () => {
      </div>
      </div>
 
-      </Link>
-       
+     <div className="card1 ">
+    <div className="Card_cantaner"> 
+     <div className="card_img"></div>
+     <div className="card_contex">
+         <div className="card_user"></div>
+         <div className="card_text"><b>Hack Game</b><p>alax</p></div>
+         <div className="card_menu"><AiOutlineEllipsis/></div>
+         <div className="icons_menu" ><AiOutlineBars/>
+        </div>
+     </div>
+     <div className="display">
+        <div className="card_icon">
+          {/* <div className="icons"><AiFillLike/> <span>1</span> </div> */}
+          <div className="icons"><AiFillHeart/> <span>2</span></div>
+          <div className="icons"><AiFillMessage/> <span>3</span></div>
+        </div>
+        </div>
+     </div>
+     </div>
 
-          ))}
-      </div>
-      </div>
+     <div className="card1 ">
+    <div className="Card_cantaner"> 
+     <div className="card_img"></div>
+     <div className="card_contex">
+         <div className="card_user"></div>
+         <div className="card_text"><b>Hack Game</b><p>alax</p></div>
+         <div className="card_menu"><AiOutlineEllipsis/></div>
+         <div className="icons_menu" ><AiOutlineBars/>
+        </div>
+     </div>
+     <div className="display">
+        <div className="card_icon">
+          {/* <div className="icons"><AiFillLike/> <span>1</span> </div> */}
+          <div className="icons"><AiFillHeart/> <span>2</span></div>
+          <div className="icons"><AiFillMessage/> <span>3</span></div>
+        </div>
+        </div>
+     </div>
+     </div>
+
+     <div className="card1 ">
+    <div className="Card_cantaner"> 
+     <div className="card_img"></div>
+     <div className="card_contex">
+         <div className="card_user"></div>
+         <div className="card_text"><b>Hack Game</b><p>alax</p></div>
+         <div className="card_menu"><AiOutlineEllipsis/></div>
+         <div className="icons_menu" ><AiOutlineBars/>
+        </div>
+     </div>
+     <div className="display">
+        <div className="card_icon">
+          {/* <div className="icons"><AiFillLike/> <span>1</span> </div> */}
+          <div className="icons"><AiFillHeart/> <span>2</span></div>
+          <div className="icons"><AiFillMessage/> <span>3</span></div>
+        </div>
+        </div>
+     </div>
+     </div>
+
+
+     <div className="card1 ">
+    <div className="Card_cantaner"> 
+     <div className="card_img"></div>
+     <div className="card_contex">
+         <div className="card_user"></div>
+         <div className="card_text"><b>Hack Game</b><p>alax</p></div>
+         <div className="card_menu"><AiOutlineEllipsis/></div>
+         <div className="icons_menu" ><AiOutlineBars/>
+        </div>
+     </div>
+     <div className="display">
+        <div className="card_icon">
+          {/* <div className="icons"><AiFillLike/> <span>1</span> </div> */}
+          <div className="icons"><AiFillHeart/> <span>2</span></div>
+          <div className="icons"><AiFillMessage/> <span>3</span></div>
+        </div>
+        </div>
+     </div>
+     </div>
+
+
+     <div className="card1 ">
+    <div className="Card_cantaner"> 
+     <div className="card_img"></div>
+     <div className="card_contex">
+         <div className="card_user"></div>
+         <div className="card_text"><b>Hack Game</b><p>alax</p></div>
+         <div className="card_menu"><AiOutlineEllipsis/></div>
+         <div className="icons_menu" ><AiOutlineBars/>
+        </div>
+     </div>
+     <div className="display">
+        <div className="card_icon">
+          {/* <div className="icons"><AiFillLike/> <span>1</span> </div> */}
+          <div className="icons"><AiFillHeart/> <span>2</span></div>
+          <div className="icons"><AiFillMessage/> <span>3</span></div>
+        </div>
+        </div>
+     </div>
+     </div>
+
+
+     <div className="card1 ">
+    <div className="Card_cantaner"> 
+     <div className="card_img"></div>
+     <div className="card_contex">
+         <div className="card_user"></div>
+         <div className="card_text"><b>Hack Game</b><p>alax</p></div>
+         <div className="card_menu"><AiOutlineEllipsis/></div>
+         <div className="icons_menu" ><AiOutlineBars/>
+        </div>
+     </div>
+     <div className="display">
+        <div className="card_icon">
+          {/* <div className="icons"><AiFillLike/> <span>1</span> </div> */}
+          <div className="icons"><AiFillHeart/> <span>2</span></div>
+          <div className="icons"><AiFillMessage/> <span>3</span></div>
+        </div>
+        </div>
+     </div>
+     </div>
+
+     <div className="card1 ">
+    <div className="Card_cantaner"> 
+     <div className="card_img"></div>
+     <div className="card_contex">
+         <div className="card_user"></div>
+         <div className="card_text"><b>Hack Game</b><p>alax</p></div>
+         <div className="card_menu"><AiOutlineEllipsis/></div>
+         <div className="icons_menu" ><AiOutlineBars/>
+        </div>
+     </div>
+     <div className="display">
+        <div className="card_icon">
+          {/* <div className="icons"><AiFillLike/> <span>1</span> </div> */}
+          <div className="icons"><AiFillHeart/> <span>2</span></div>
+          <div className="icons"><AiFillMessage/> <span>3</span></div>
+        </div>
+        </div>
+     </div>
+     </div>
+
+     <div className="card1 ">
+    <div className="Card_cantaner"> 
+     <div className="card_img"></div>
+     <div className="card_contex">
+         <div className="card_user"></div>
+         <div className="card_text"><b>Hack Game</b><p>alax</p></div>
+         <div className="card_menu"><AiOutlineEllipsis/></div>
+         <div className="icons_menu" ><AiOutlineBars/>
+        </div>
+     </div>
+     <div className="display">
+        <div className="card_icon">
+          {/* <div className="icons"><AiFillLike/> <span>1</span> </div> */}
+          <div className="icons"><AiFillHeart/> <span>2</span></div>
+          <div className="icons"><AiFillMessage/> <span>3</span></div>
+        </div>
+        </div>
+     </div>
+     </div>
+
+     <div className="card1 ">
+    <div className="Card_cantaner"> 
+     <div className="card_img"></div>
+     <div className="card_contex">
+         <div className="card_user"></div>
+         <div className="card_text"><b>Hack Game</b><p>alax</p></div>
+         <div className="card_menu"><AiOutlineEllipsis/></div>
+         <div className="icons_menu" ><AiOutlineBars/>
+        </div>
+     </div>
+     <div className="display">
+        <div className="card_icon">
+          {/* <div className="icons"><AiFillLike/> <span>1</span> </div> */}
+          <div className="icons"><AiFillHeart/> <span>2</span></div>
+          <div className="icons"><AiFillMessage/> <span>3</span></div>
+        </div>
+        </div>
+     </div>
+     </div>
+
+     <div className="card1 ">
+    <div className="Card_cantaner"> 
+     <div className="card_img"></div>
+     <div className="card_contex">
+         <div className="card_user"></div>
+         <div className="card_text"><b>Hack Game</b><p>alax</p></div>
+         <div className="card_menu"><AiOutlineEllipsis/></div>
+         <div className="icons_menu" ><AiOutlineBars/>
+        </div>
+     </div>
+     <div className="display">
+        <div className="card_icon">
+          {/* <div className="icons"><AiFillLike/> <span>1</span> </div> */}
+          <div className="icons"><AiFillHeart/> <span>2</span></div>
+          <div className="icons"><AiFillMessage/> <span>3</span></div>
+        </div>
+        </div>
+     </div>
+     </div>
+
+     <div className="card1 ">
+    <div className="Card_cantaner"> 
+     <div className="card_img"></div>
+     <div className="card_contex">
+         <div className="card_user"></div>
+         <div className="card_text"><b>Hack Game</b><p>alax</p></div>
+         <div className="card_menu"><AiOutlineEllipsis/></div>
+         <div className="icons_menu" ><AiOutlineBars/>
+        </div>
+     </div>
+     <div className="display">
+        <div className="card_icon">
+          {/* <div className="icons"><AiFillLike/> <span>1</span> </div> */}
+          <div className="icons"><AiFillHeart/> <span>2</span></div>
+          <div className="icons"><AiFillMessage/> <span>3</span></div>
+        </div>
+        </div>
+     </div>
+     </div>
+     </div>
+     </div>
+
+
+
     </main>
 
     <div className="rotation_box_position">

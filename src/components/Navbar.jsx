@@ -8,7 +8,7 @@ function Navbar(){
 
     const scroll=(e)=>{
         history.push('/');
-        document.getElementById(`${e.target.name}`).scrollIntoView({behavior:"smooth"})
+        // document.getElementById(`${e.target.name}`).scrollIntoView({behavior:"smooth"})
         
     }
  
@@ -27,7 +27,7 @@ return(
                     <button name="main-section" className="navbtn" onClick={scroll}>Home</button>
                        
                     </li>
-                    <li>
+                    {/* <li>
                     <button name="about-section" className="navbtn" onClick={scroll}>About</button>
                     
                     </li>
@@ -42,7 +42,7 @@ return(
                     </li>
                     <li>
                         <button name="contact-section" className="navbtn" onClick={scroll}>Contact</button>
-                    </li>
+                    </li> */}
                     <li>
                         <a className="navbtn" href="/alumni">
                         Alumni

@@ -30,11 +30,16 @@ select, textarea, input[type="text"] {
     padding: 5px 20px;
     font-size: 15px;
     background: #F0F5F7;
-    width: 100% !important;
+    width: 200% !important;
     color: #696969;
     transition: all 0.3s ease-in-out 0s;
     box-shadow: none;
     height: 60px;
+}
+@media(max-width:800px){
+  select, textarea, input[type="text"] {
+    width: 100% !important;
+}
 }
 
 .form-control{

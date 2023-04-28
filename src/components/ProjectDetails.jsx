@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import D_user_img from "../components/assets/favicon.png";
 import Navbar from './Navbar';
+import robotimage from '../assets/images/illustration-future-education-classroom-with-robotic-tech-teacher-ai_564714-2541.jpg';
 
 
 import axios from 'axios';
@@ -34,11 +35,11 @@ function viewPost(){
     <div className="D_body">
     <div className="D_continer"> 
 
-    <div className="head" style={{ backgroundImage:`url(${ispost.thumb})`}}> </div>
+    <div className="head" style={{ backgroundImage:`url(${robotimage})`}}> </div>
    
    <div className='D_context'>
-    <div className="D_title "><div className='D_center'>{ispost.title}</div></div>
-      <div className='D_paragraphTitle'><p><b>{id}:{ispost.title}</b></p></div>
+    <div className="D_title "><div className='D_center'>robot</div></div>
+      {/* <div className='D_paragraphTitle'><p><b>{id}:{ispost.title}</b></p></div> */}
         <p className='post_descriptoin' dangerouslySetInnerHTML={{ __html: ispost.description}}/>
         <p>Looks like we need to do ctrl+shift+p and search for User Settings. Filter for the emmet settings and select the Trigger expansion on tab then the ! is replaced with the corresponding emmet snippet.
 
