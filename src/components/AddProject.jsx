@@ -6,7 +6,9 @@ import 'react-draft-wysiwyg/dist/react-draft-wysiwyg.css';
 import { useHistory } from "react-router-dom";
 import axios from 'axios';
 import { Fragment } from 'react';
-import '../assets/css/AddProject.css'
+import '../assets/css/AddProject.css';
+import Navbar from './Navbar';
+// import '../assets/css/editor.css';
 
  
 
@@ -55,6 +57,7 @@ const AddProject = () => {
  
   return (
     <Fragment>
+      <Navbar/>
     <div className="Addproject">
     <div className="container">  
     {/* this is where the section begins */}
