@@ -1,5 +1,5 @@
 {
-  "homepage": "./",
+  "homepage": "https://ekant-sahu.github.io/RobotixWeb21-Frontend",
   "name": "robotixweb21-frontend",
   "version": "0.1.0",
   "private": true,
@@ -35,8 +35,10 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts  --openssl-legacy-provider start",
+    "build": "react-scripts  --openssl-legacy-provider build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
