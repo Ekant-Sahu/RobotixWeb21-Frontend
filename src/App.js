@@ -113,7 +113,7 @@ function App() {
 
 
 
-        <Route path="/RobotixWeb21-Frontend">
+        <Route path="RobotixWeb21-Frontend/">
           <Main />
           <About />
           <Events />
