@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/Ekant-Sahu/RobotixWeb21-Frontend/static/css/main.63d1200c.chunk.css",
-    "main.js": "/Ekant-Sahu/RobotixWeb21-Frontend/static/js/main.94caed67.chunk.js",
-    "main.js.map": "/Ekant-Sahu/RobotixWeb21-Frontend/static/js/main.94caed67.chunk.js.map",
+    "main.js": "/Ekant-Sahu/RobotixWeb21-Frontend/static/js/main.f704cf3a.chunk.js",
+    "main.js.map": "/Ekant-Sahu/RobotixWeb21-Frontend/static/js/main.f704cf3a.chunk.js.map",
     "runtime-main.js": "/Ekant-Sahu/RobotixWeb21-Frontend/static/js/runtime-main.fed8e749.js",
     "runtime-main.js.map": "/Ekant-Sahu/RobotixWeb21-Frontend/static/js/runtime-main.fed8e749.js.map",
     "static/css/2.42e7708d.chunk.css": "/Ekant-Sahu/RobotixWeb21-Frontend/static/css/2.42e7708d.chunk.css",
-    "static/js/2.74e592e4.chunk.js": "/Ekant-Sahu/RobotixWeb21-Frontend/static/js/2.74e592e4.chunk.js",
-    "static/js/2.74e592e4.chunk.js.map": "/Ekant-Sahu/RobotixWeb21-Frontend/static/js/2.74e592e4.chunk.js.map",
+    "static/js/2.7e89b469.chunk.js": "/Ekant-Sahu/RobotixWeb21-Frontend/static/js/2.7e89b469.chunk.js",
+    "static/js/2.7e89b469.chunk.js.map": "/Ekant-Sahu/RobotixWeb21-Frontend/static/js/2.7e89b469.chunk.js.map",
     "index.html": "/Ekant-Sahu/RobotixWeb21-Frontend/index.html",
     "static/css/2.42e7708d.chunk.css.map": "/Ekant-Sahu/RobotixWeb21-Frontend/static/css/2.42e7708d.chunk.css.map",
     "static/css/main.63d1200c.chunk.css.map": "/Ekant-Sahu/RobotixWeb21-Frontend/static/css/main.63d1200c.chunk.css.map",
-    "static/js/2.74e592e4.chunk.js.LICENSE.txt": "/Ekant-Sahu/RobotixWeb21-Frontend/static/js/2.74e592e4.chunk.js.LICENSE.txt",
+    "static/js/2.7e89b469.chunk.js.LICENSE.txt": "/Ekant-Sahu/RobotixWeb21-Frontend/static/js/2.7e89b469.chunk.js.LICENSE.txt",
     "static/media/flaticon.css": "/Ekant-Sahu/RobotixWeb21-Frontend/static/media/Flaticon.ed21886f.woff2",
     "static/media/main.css": "/Ekant-Sahu/RobotixWeb21-Frontend/static/media/pricing.3d93ae1d.png",
     "static/media/arduino.ba271be7.png": "/Ekant-Sahu/RobotixWeb21-Frontend/static/media/arduino.ba271be7.png",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.fed8e749.js",
     "static/css/2.42e7708d.chunk.css",
-    "static/js/2.74e592e4.chunk.js",
+    "static/js/2.7e89b469.chunk.js",
     "static/css/main.63d1200c.chunk.css",
-    "static/js/main.94caed67.chunk.js"
+    "static/js/main.f704cf3a.chunk.js"
   ]
 }
