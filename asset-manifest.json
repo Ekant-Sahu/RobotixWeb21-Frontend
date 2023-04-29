@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Ekant-Sahu/RobotixWeb21-Frontend/static/css/main.63d1200c.chunk.css",
-    "main.js": "/Ekant-Sahu/RobotixWeb21-Frontend/static/js/main.f704cf3a.chunk.js",
-    "main.js.map": "/Ekant-Sahu/RobotixWeb21-Frontend/static/js/main.f704cf3a.chunk.js.map",
+    "main.js": "/Ekant-Sahu/RobotixWeb21-Frontend/static/js/main.8ecf584b.chunk.js",
+    "main.js.map": "/Ekant-Sahu/RobotixWeb21-Frontend/static/js/main.8ecf584b.chunk.js.map",
     "runtime-main.js": "/Ekant-Sahu/RobotixWeb21-Frontend/static/js/runtime-main.fed8e749.js",
     "runtime-main.js.map": "/Ekant-Sahu/RobotixWeb21-Frontend/static/js/runtime-main.fed8e749.js.map",
     "static/css/2.42e7708d.chunk.css": "/Ekant-Sahu/RobotixWeb21-Frontend/static/css/2.42e7708d.chunk.css",
@@ -26,6 +26,6 @@
     "static/css/2.42e7708d.chunk.css",
     "static/js/2.7e89b469.chunk.js",
     "static/css/main.63d1200c.chunk.css",
-    "static/js/main.f704cf3a.chunk.js"
+    "static/js/main.8ecf584b.chunk.js"
   ]
 }
