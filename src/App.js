@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 import Cookies from "universal-cookie";
-import { BrowserRouter, Route, Link, Switch } from "react-router-dom";
+import { HashRouter, Route, Link, Switch } from "react-router-dom";
 import api from "./service"
 import Main from "./components/Main.jsx"
 import About from "./components/About.jsx"
@@ -87,7 +87,7 @@ config({ ssrFadeout: true });
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <HashRouter basename={process.env.PUBLIC_URL}>
 
       <Switch>
 
@@ -136,7 +136,7 @@ function App() {
 
       </Switch>
 
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
