@@ -87,7 +87,7 @@ config({ ssrFadeout: true });
 
 function App() {
   return (
-    <HashRouter>
+    <HashRouter >
 
       <Switch>
 
@@ -113,7 +113,7 @@ function App() {
 
 
 
-        <Route path="/">
+        <Route path="/RobotixWeb21-Frontend">
           <Main />
           <About />
           <Events />
